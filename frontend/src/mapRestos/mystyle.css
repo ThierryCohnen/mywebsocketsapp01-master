@@ -1,0 +1,159 @@
+dt {
+    text-align: center;
+    background-color: rgb(163, 228, 206);
+}
+
+.countrySelect {
+    text-align: left;
+}
+
+#countrySelect01,
+#citySelect01 {
+    text-align: center;
+    font-size: large;
+}
+
+#countrySelect {
+    margin: 15px;
+    width: 100px;
+}
+
+#countrySelect option {
+    margin: 15px;
+}
+
+
+
+#citySelect {
+    margin: 15px;
+    width: 100px;
+}
+
+#cityySelect option {
+    margin: 15px;
+}
+
+#cafes03,
+#cafes02,
+#route-narrative {
+    font-size: medium;
+}
+
+#grid01 {
+    display: grid;
+    text-align: center;
+    background-color: rgb(163, 228, 206);
+    border: 5px solid green;
+    padding: 5px;
+    margin: 5px;
+    grid-template-columns: 150px 1fr 1fr 1fr;
+    grid-template-rows: 150px 250px 250px 150px;
+}
+
+.mapid01 {
+    grid-area: 1 / 1 / 5 / 4;
+}
+
+.btn-cafes {
+    background-color: rgb(139, 196, 137);
+    grid-area: 1 / 4 / 1 / 4;
+}
+
+.button01:hover {
+    background-position: right center;
+}
+
+#route-narrative02 {
+    background-color: lime;
+}
+
+.cafes,
+.cafes23 {
+    text-align: left;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+.button-open {
+    background-image: linear-gradient(to right, #26b482 12%, #93F9B9 30%);
+}
+
+.button-close {
+    background-image: linear-gradient(to right, #bd1d1d 12%, #ff7689 30%);
+}
+
+.button01 {
+    height: 25px;
+    width: 120px;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+#cafes li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.close {
+    cursor: pointer;
+    top: 50%;
+    right: 0%;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.arrow:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
